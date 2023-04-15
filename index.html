@@ -1,0 +1,57 @@
+
+          <html>
+            <body><!DOCTYPE html>
+<html>
+    <head>
+        <title>Car Test classifier</title>
+        </head>
+        <body>
+    <h1>Driving Validator</h1>
+    <form onsubmit="validate()">
+        Type in you age<br><br>
+        <input type="text" id="age">
+        <input type="submit">
+        </form>
+        <br>
+        <hr>
+        <br>
+        <form onsubmit="test()">
+            Type in your score<br><br>
+        <input type="text" id="score">
+        <input type="submit">
+        </form>
+        </body>
+        </html></body>
+            <style>body{
+    
+    
+    
+    
+    
+    background-color:midnightblue;
+    color:white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}</style>
+            <script>function validate(){
+var age=document.getElementById("age").value
+if(age>0 && age<=15){
+alert("You are not eligable for a license")
+}
+if(age>15){
+alert("You are eligable for a license")
+}
+}
+function test(){
+var grade=document.getElementById("score").value
+if(grade>0 && grade<=60){
+alert("You need to work really hard")
+}
+if(grade>60 && grade<=80){
+alert("Keep working for better")
+}
+if(grade>80 && grade<=100){
+alert("Maintain the consistency")
+}
+}</script>
+          </html>
+        
